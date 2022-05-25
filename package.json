@@ -1,0 +1,38 @@
+{
+  "name": "node_sequelize_mysql_api",
+  "version": "1.0.0",
+  "description": "node express sequelize mysql API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomsclete/node_sequelize_mysql_api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "rest",
+    "sequelize",
+    "mysql",
+    "express"
+  ],
+  "author": "Amath THIAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomsclete/node_sequelize_mysql_api/issues"
+  },
+  "homepage": "https://github.com/pomsclete/node_sequelize_mysql_api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
