@@ -8,6 +8,10 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
         },
+        like: {
+            type: DataTypes.INTEGER,
+            defaultValue: 0
+        },
         status: {
             type: DataTypes.BOOLEAN,
         },

@@ -16,10 +16,15 @@ app.use(express.json())
 
 app.use(express.urlencoded({ extended: true }))
 
-// routers
 
-const router = require("./routes/userRouter.js")
-app.use("/api/user", router)
+/******** API ROUTES *********/
+const routerUser = require("./routes/userRouter.js")
+const routerPost = require("./routes/postRouter.js")
+    // User routes
+app.use("/api/user", routerUser)
+    // Post routes
+app.use("/api/post", routerPost)
+
 
 //Testing API
 
